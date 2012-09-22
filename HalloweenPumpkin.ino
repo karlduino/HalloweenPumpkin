@@ -18,7 +18,7 @@ int PIRstate = 0;
 
 
 const int eyes=18;
-const int mouth[3]= [17, 16, 15]; // center, middle, outer
+const int mouth[3]= {17, 16, 15}; // center, middle, outer
 
 
 void setup(void)
