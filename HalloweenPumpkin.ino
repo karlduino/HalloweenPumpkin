@@ -30,13 +30,32 @@ FatReader root; // root directory on partition
 FatReader file; // file on card
 WaveHC wave;    // wave audio object
 
-const int numFiles = 7;
-char files[numFiles][13] = {"cackle.wav",   "catscrem.wav", "ghoullaf.wav",
-                            "gostmoan.wav", "scream.wav",   "scream2.wav",
-                            "screech.wav" };
+const int numFiles = 19;
+char files[numFiles][13] = {"a_laugh.wav",
+                            "Ooo.wav",
+                            "howls.wav",
+                            "laugh.wav",
+                            "ghoullaf.wav",
+                            "gostmoan.wav",
+                            "scream.wav",
+                            "scream2.wav",
+                            "screech.wav",
+                            "scream_a.wav",
+                            "scream_c.wav",
+                            "screamc2.wav",
+                            "t_or_t_a.wav",
+                            "t_r_t_a2.wav",
+                            "t_or_t_c.wav",
+                            "t_r_t_c2.wav",
+                            "t_or_t_k.wav",
+                            "hpyhlwnk.wav",
+                            "hpyhlwna.wav"};
 
-const int numWelcomeFiles = 2;
-char welcomeFiles[numWelcomeFiles][13] = {"hpyhalwn.wav", "welcome.wav" };
+
+const int numWelcomeFiles = 7;
+char welcomeFiles[numWelcomeFiles][13] = {"hpyhlwnk.wav", "hpyhlwna.wav",
+                                          "t_or_t_a.wav", "t_r_t_a2.wav", "t_or_t_c.wav",
+                                          "t_r_t_c2.wav", "t_or_t_k.wav" };
 
 
 void setup(void)
