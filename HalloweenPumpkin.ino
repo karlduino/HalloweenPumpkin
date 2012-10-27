@@ -102,7 +102,7 @@ void loop(void) {
       animateMouth(getVolume(volumeInput));
     }
     mouthOff(0);
-    delay(5000 + random(10000));
+    delay(2000 + random(10000));
   }
 }
 
